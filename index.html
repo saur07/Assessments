@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A responsive product listing page demo with editorial styling, product cards, category filters, and mobile-first layout."
+    />
+    <title>Northstar Collection | Product Listing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="topbar" aria-label="Primary">
+        <a class="brand" href="/">Northstar</a>
+        <div class="topbar-links">
+          <a href="#collection">Collection</a>
+          <a href="#highlights">Highlights</a>
+          <a href="#shop">Shop</a>
+        </div>
+      </nav>
+      <div class="hero-copy">
+        <p class="eyebrow">Curated product listing page</p>
+        <h1>Elevated essentials for everyday movement.</h1>
+        <p class="hero-text">
+          A responsive PLP concept with filters, product cards, ratings, and
+          editorial storytelling.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="collection" id="collection">
+        <div class="section-heading">
+          <p class="eyebrow">Featured collection</p>
+          <h2>Built to feel premium on every screen.</h2>
+        </div>
+
+        <div class="filter-row" aria-label="Category filters">
+          <span class="filter-pill active">All</span>
+          <span class="filter-pill">Outerwear</span>
+          <span class="filter-pill">Accessories</span>
+          <span class="filter-pill">Footwear</span>
+        </div>
+
+        <div class="product-grid" id="shop">
+          <article class="product-card">
+            <div class="product-art product-art-bag"></div>
+            <div class="product-meta">
+              <p class="product-category">Accessories</p>
+              <h3>Canvas Weekender</h3>
+              <p class="product-description">
+                Structured travel bag with weather-safe finish and full-grain
+                trim.
+              </p>
+              <div class="product-footer">
+                <span>$128</span>
+                <span>4.8 / 5</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-art product-art-jacket"></div>
+            <div class="product-meta">
+              <p class="product-category">Outerwear</p>
+              <h3>Field Utility Jacket</h3>
+              <p class="product-description">
+                Lightweight shell with oversized pockets and a softly tailored
+                fit.
+              </p>
+              <div class="product-footer">
+                <span>$164</span>
+                <span>4.9 / 5</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card accent">
+            <div class="product-art product-art-sneaker"></div>
+            <div class="product-meta">
+              <p class="product-category">Footwear</p>
+              <h3>Trailline Runner</h3>
+              <p class="product-description">
+                All-terrain sneaker with responsive cushioning and sculpted
+                sole.
+              </p>
+              <div class="product-footer">
+                <span>$112</span>
+                <span>4.7 / 5</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="highlights" id="highlights">
+        <div class="highlight-card">
+          <p class="eyebrow">Why this layout works</p>
+          <h2>Clear hierarchy, fast scanning, and minimal DOM clutter.</h2>
+        </div>
+        <div class="highlight-list">
+          <div>
+            <strong>Responsive structure</strong>
+            <p>Single-column stacking on mobile, balanced grid on larger views.</p>
+          </div>
+          <div>
+            <strong>SEO basics</strong>
+            <p>Descriptive title, metadata, heading order, and meaningful copy.</p>
+          </div>
+          <div>
+            <strong>Clean styling</strong>
+            <p>Purposeful typography, atmospheric background, and restrained motion.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

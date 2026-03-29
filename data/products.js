@@ -1,0 +1,121 @@
+export const products = [
+  {
+    id: 1,
+    slug: "noir-rolltop-pack",
+    name: "Noir Rolltop Pack",
+    category: "Accessories",
+    price: 164,
+    rating: 4.9,
+    reviews: 142,
+    colorLabel: "Black",
+    image: "/images/product-photo-1.jpg",
+    alt: "Black rolltop backpack",
+    description: "Structured everyday backpack with rolltop closure and utility straps."
+  },
+  {
+    id: 2,
+    slug: "dino-plush-front",
+    name: "Dino Plush",
+    category: "Kids",
+    price: 52,
+    rating: 4.9,
+    reviews: 174,
+    colorLabel: "Yellow",
+    image: "/images/product-photo-2.jpg",
+    alt: "Yellow dinosaur plush toy",
+    description: "Playful plush companion with bright colors and a soft sculpted body."
+  },
+  {
+    id: 3,
+    slug: "loop-tag-accessory",
+    name: "Loop Tag Accessory",
+    category: "Accessories",
+    price: 44,
+    rating: 4.4,
+    reviews: 39,
+    colorLabel: "Rose",
+    image: "/images/product-photo-3.jpg",
+    alt: "Looped tag accessory in rose tones",
+    description: "Compact accessory loop with a soft tag detail and polished finish."
+  },
+  {
+    id: 4,
+    slug: "ivory-structured-hat",
+    name: "Ivory Structured Hat",
+    category: "Accessories",
+    price: 88,
+    rating: 4.6,
+    reviews: 54,
+    colorLabel: "Ivory",
+    image: "/images/product-photo-4.jpg",
+    alt: "Structured ivory hat",
+    description: "Architectural hat with a crisp brim and gallery-inspired shape."
+  },
+  {
+    id: 5,
+    slug: "trail-roll-pack",
+    name: "Trail Roll Pack",
+    category: "Accessories",
+    price: 158,
+    rating: 4.8,
+    reviews: 121,
+    colorLabel: "Graphite",
+    image: "/images/product-photo-5.jpg",
+    alt: "Back view of a black utility backpack",
+    description: "Utility backpack with broad straps and an easy everyday carry profile."
+  },
+  {
+    id: 6,
+    slug: "dino-plush-side",
+    name: "Dino Plush Side",
+    category: "Kids",
+    price: 52,
+    rating: 4.8,
+    reviews: 166,
+    colorLabel: "Yellow",
+    image: "/images/product-photo-6.jpg",
+    alt: "Side view of a yellow dinosaur plush toy",
+    description: "Side-profile plush toy with tactile knit texture and bright contrast details."
+  },
+  {
+    id: 7,
+    slug: "woven-loop-clutch",
+    name: "Woven Loop Clutch",
+    category: "Accessories",
+    price: 128,
+    rating: 4.8,
+    reviews: 126,
+    colorLabel: "Tan",
+    image: "/images/product-photo-7.jpg",
+    alt: "Woven loop clutch in tan",
+    description: "Soft woven clutch with sculptural loops and an artisanal finish."
+  },
+  {
+    id: 8,
+    slug: "slate-fold-pouch",
+    name: "Slate Fold Pouch",
+    category: "Accessories",
+    price: 94,
+    rating: 4.7,
+    reviews: 91,
+    colorLabel: "Slate",
+    image: "/images/product-photo-8.jpg",
+    alt: "Slate fold pouch",
+    description: "Minimal fold-over pouch with a clean profile and compact silhouette."
+  },
+  {
+    id: 9,
+    slug: "graphite-fold-wallet",
+    name: "Graphite Fold Wallet",
+    category: "Accessories",
+    price: 72,
+    rating: 4.5,
+    reviews: 68,
+    colorLabel: "Graphite",
+    image: "/images/product-photo-9.jpg",
+    alt: "Folded graphite accessory pouch",
+    description: "Compact fold wallet with a soft construction and monochrome finish."
+  }
+];
+
+export const filters = ["All", "Accessories", "Kids"];
